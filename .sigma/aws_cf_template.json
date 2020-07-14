@@ -13,6 +13,14 @@
     "envVarK1Parameter": {
       "Type": "String",
       "Description": "Value of the environment variable: K1, for all Lambdas"
+    },
+    "envVarGCPSERVICEACCOUNTKEYParameter": {
+      "Type": "String",
+      "Description": "Value of the environment variable: GCP_SERVICE_ACCOUNT_KEY, for all Lambdas"
+    },
+    "envVarGCPPROJECTParameter": {
+      "Type": "String",
+      "Description": "Value of the environment variable: GCP_PROJECT, for all Lambdas"
     }
   },
   "Outputs": {
@@ -374,6 +382,12 @@
               "Ref": "envVarK1Parameter"
             },
             "K2": "V2",
+            "GCP_SERVICE_ACCOUNT_KEY": {
+              "Ref": "envVarGCPSERVICEACCOUNTKEYParameter"
+            },
+            "GCP_PROJECT": {
+              "Ref": "envVarGCPPROJECTParameter"
+            },
             "SIGMA_AWS_ACC_ID": {
               "Ref": "AWS::AccountId"
             }
@@ -525,7 +539,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigsachithraAPInameDeployment1594716612405": {
+    "apigsachithraAPInameDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "052p9kjn18",
@@ -536,7 +550,7 @@
         "apigsachithraAPInamePUT"
       ]
     },
-    "apigTestAPIDeployment1594716612405": {
+    "apigTestAPIDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "0itznun7w3",
@@ -547,7 +561,7 @@
         "apigTestAPIANY"
       ]
     },
-    "apigHSVendorDeployment1594716612405": {
+    "apigHSVendorDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "2owdjvd5i7",
@@ -558,7 +572,7 @@
         "apigHSVendorpromoPOST"
       ]
     },
-    "apigXRayAPIDeployment1594716612405": {
+    "apigXRayAPIDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "fa31crcvij",
@@ -570,7 +584,7 @@
         "apigXRayAPItestCors"
       ]
     },
-    "apigContactUsAPIDeployment1594716612405": {
+    "apigContactUsAPIDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "haq1734epj",
@@ -581,7 +595,7 @@
         "apigContactUsAPItestGET"
       ]
     },
-    "apigMySampleLambdaAPIDeployment1594716612405": {
+    "apigMySampleLambdaAPIDeployment1594716838860": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "hpaynv8h4a",
