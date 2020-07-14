@@ -373,6 +373,7 @@
             "K1": {
               "Ref": "envVarK1Parameter"
             },
+            "K2": "V2",
             "SIGMA_AWS_ACC_ID": {
               "Ref": "AWS::AccountId"
             }
@@ -524,7 +525,7 @@
         "Principal": "apigateway.amazonaws.com"
       }
     },
-    "apigsachithraAPInameDeployment1594706709044": {
+    "apigsachithraAPInameDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "052p9kjn18",
@@ -535,7 +536,7 @@
         "apigsachithraAPInamePUT"
       ]
     },
-    "apigTestAPIDeployment1594706709044": {
+    "apigTestAPIDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "0itznun7w3",
@@ -546,7 +547,7 @@
         "apigTestAPIANY"
       ]
     },
-    "apigHSVendorDeployment1594706709044": {
+    "apigHSVendorDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "2owdjvd5i7",
@@ -557,7 +558,7 @@
         "apigHSVendorpromoPOST"
       ]
     },
-    "apigXRayAPIDeployment1594706709044": {
+    "apigXRayAPIDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "fa31crcvij",
@@ -569,7 +570,7 @@
         "apigXRayAPItestCors"
       ]
     },
-    "apigContactUsAPIDeployment1594706709044": {
+    "apigContactUsAPIDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "haq1734epj",
@@ -580,7 +581,7 @@
         "apigContactUsAPItestGET"
       ]
     },
-    "apigMySampleLambdaAPIDeployment1594706709045": {
+    "apigMySampleLambdaAPIDeployment1594716612405": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": "hpaynv8h4a",

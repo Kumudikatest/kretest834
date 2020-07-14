@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kretest812.js",
         "cursor": {
-          "lineNumber": 4,
-          "column": 3
+          "lineNumber": 2,
+          "column": 5
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -255,6 +255,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "K2",
+        "varValue": "V2",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -270,7 +278,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1594706668919
+    "lastSave": 1594716602644
   },
   "VCS_STATE": {
     "provider": "GitHub",
