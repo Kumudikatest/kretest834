@@ -1,18 +1,18 @@
 {
   "EDITOR_STATE": {
     "allProjectFiles": {
-      "96bbe545-f1ec-46f5-b634-54205f41486f": {
-        "id": "96bbe545-f1ec-46f5-b634-54205f41486f",
+      "8f725937-06b1-4b9f-81f8-8ca43bcb8098": {
+        "id": "8f725937-06b1-4b9f-81f8-8ca43bcb8098",
         "parent": null,
-        "name": "kretest812.js",
+        "name": "kretest834.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "kretest812.js",
+        "filePath": "kretest834.js",
         "cursor": {
-          "lineNumber": 1,
-          "column": 1
+          "lineNumber": 2,
+          "column": 11
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -20,234 +20,25 @@
           "timeout": 60,
           "memory": 128,
           "layers": [],
-          "name": "kretest812"
+          "name": "kretest834"
         },
-        "triggers": [
-          {
-            "resourceName": "apigusEast1sachithraAPInameput",
-            "config": {}
-          },
-          {
-            "resourceName": "apigusEast1TestAPIany",
-            "config": {}
-          },
-          {
-            "resourceName": "apigusEast1HSVendorpromopost",
-            "config": {}
-          },
-          {
-            "resourceName": "apigusEast1XRayAPItestput",
-            "config": {}
-          },
-          {
-            "resourceName": "apigusEast1ContactUsAPItestget",
-            "config": {}
-          },
-          {
-            "resourceName": "apigusEast1MySampleLambdaAPIkdelete",
-            "config": {}
+        "triggers": [],
+        "lastUpdated": 1602246878423,
+        "testCases": {
+          "fa486c7f-9b43-4121-9ddb-f7bc348ec37a": {
+            "id": "fa486c7f-9b43-4121-9ddb-f7bc348ec37a",
+            "functionId": "8f725937-06b1-4b9f-81f8-8ca43bcb8098",
+            "name": "My First Test Case",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
           }
-        ]
-      },
-      "98b86134-cada-4657-ac8d-b1f806d1f1a3": {
-        "id": "98b86134-cada-4657-ac8d-b1f806d1f1a3",
-        "parent": null,
-        "name": "Authorizer.js",
-        "type": "JS_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "Authorizer.js"
+        }
       }
     },
     "openFiles": [
-      "96bbe545-f1ec-46f5-b634-54205f41486f"
+      "8f725937-06b1-4b9f-81f8-8ca43bcb8098"
     ],
-    "currentFileId": "96bbe545-f1ec-46f5-b634-54205f41486f",
-    "resources": {
-      "apigusEast1sachithraAPInameput": {
-        "name": "apigusEast1sachithraAPInameput",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "sachithraAPIname",
-          "apiId": "052p9kjn18",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "zrjp6rdv3b",
-          "existingResources": {
-            "/": "zrjp6rdv3b"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/",
-          "resourceName": "",
-          "resourceId": "zrjp6rdv3b",
-          "restMethod": "PUT",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "Test",
-          "stageDeploymentId": "lm0elf",
-          "mode": 1
-        }
-      },
-      "apigusEast1TestAPIany": {
-        "name": "apigusEast1TestAPIany",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "TestAPI",
-          "apiId": "0itznun7w3",
-          "endpointType": "EDGE",
-          "rootResourceId": "h2lelj6j7k",
-          "existingResources": {
-            "/MyLambda": "98nqbj",
-            "/": "h2lelj6j7k",
-            "/newchange/test": "k6pdhn",
-            "/newchange": "q1ox7l",
-            "/testWithSlash": "q4m4g1",
-            "/testtwospeciallambda": "q4szm3",
-            "/testtwospecialkumutest": "wey3lk"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/",
-          "resourceName": "",
-          "resourceId": "h2lelj6j7k",
-          "restMethod": "ANY",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "socks",
-          "stageDeploymentId": "pdxnuc",
-          "mode": 1
-        }
-      },
-      "apigusEast1HSVendorpromopost": {
-        "name": "apigusEast1HSVendorpromopost",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "HS Vendor",
-          "apiId": "2owdjvd5i7",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "hfkl4vnbka",
-          "existingResources": {
-            "/promo": "3o8456",
-            "/promo/redeems": "3xd0dc",
-            "/vendor/list": "9pwxkc",
-            "/redeem": "d7xwsp",
-            "/": "hfkl4vnbka",
-            "/user": "hupuqk",
-            "/promo/list": "l5jx2m",
-            "/qr": "rcbg6a",
-            "/vendor": "wx8mtf"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/promo",
-          "resourceName": "promo",
-          "resourceId": "3o8456",
-          "restMethod": "POST",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "hotProd",
-          "stageDeploymentId": "60ke9p",
-          "mode": 1
-        }
-      },
-      "apigusEast1XRayAPItestput": {
-        "name": "apigusEast1XRayAPItestput",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "XRayAPI",
-          "apiId": "fa31crcvij",
-          "endpointType": "EDGE",
-          "rootResourceId": "egq3102fi2",
-          "existingResources": {
-            "/": "egq3102fi2",
-            "/test": "ib9oww"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/test",
-          "resourceName": "test",
-          "resourceId": "ib9oww",
-          "restMethod": "PUT",
-          "proxyIntegration": false,
-          "enableCORS": true,
-          "stageMode": 1,
-          "stageName": "test",
-          "stageDeploymentId": "ty29hu",
-          "mode": 1
-        }
-      },
-      "apigusEast1ContactUsAPItestget": {
-        "name": "apigusEast1ContactUsAPItestget",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "Contact Us API",
-          "apiId": "haq1734epj",
-          "endpointType": "EDGE",
-          "rootResourceId": "mzuxknq0xl",
-          "existingResources": {
-            "/test": "9ucvkx",
-            "/": "mzuxknq0xl"
-          },
-          "resourceMode": 1,
-          "resourcePath": "/test",
-          "resourceName": "test",
-          "resourceId": "9ucvkx",
-          "restMethod": "GET",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 1,
-          "stageName": "test",
-          "stageDeploymentId": "xjpasp",
-          "mode": 1
-        }
-      },
-      "apigusEast1MySampleLambdaAPIkdelete": {
-        "name": "apigusEast1MySampleLambdaAPIkdelete",
-        "type": "API_GATEWAY",
-        "config": {
-          "selectedRegion": "us-east-1",
-          "apiType": 1,
-          "apiMode": 1,
-          "apiName": "MySampleLambda-API",
-          "apiId": "hpaynv8h4a",
-          "endpointType": "REGIONAL",
-          "rootResourceId": "43wvatqw8d",
-          "existingResources": {
-            "/MySampleLambda": "0pt2kv",
-            "/": "43wvatqw8d"
-          },
-          "resourceMode": 0,
-          "resourceName": "k",
-          "resourcePath": "/k",
-          "restMethod": "DELETE",
-          "proxyIntegration": false,
-          "enableCORS": false,
-          "stageMode": 0,
-          "stageName": "kk",
-          "mode": 1
-        }
-      },
-      "datastore": {
-        "name": "datastore",
-        "type": "CloudDatastore",
-        "config": {}
-      }
-    },
+    "currentFileId": "8f725937-06b1-4b9f-81f8-8ca43bcb8098",
+    "resources": {},
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -262,62 +53,22 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": false
-      },
-      {
-        "lambdaId": "all",
-        "varKey": "K1",
-        "varValue": null,
-        "shouldPersist": false,
-        "displayOnly": false,
-        "editable": true
-      },
-      {
-        "lambdaId": "all",
-        "varKey": "K2",
-        "varValue": "V2",
-        "shouldPersist": true,
-        "displayOnly": false,
-        "editable": true
-      },
-      {
-        "lambdaId": "all",
-        "varKey": "GCP_SERVICE_ACCOUNT_KEY",
-        "varValue": null,
-        "shouldPersist": false,
-        "displayOnly": false,
-        "editable": false
-      },
-      {
-        "lambdaId": "all",
-        "varKey": "GCP_PROJECT",
-        "varValue": null,
-        "shouldPersist": false,
-        "displayOnly": false,
-        "editable": false
       }
     ],
     "packageJSON": {
-      "dependencies": {
-        "googleapis": {
-          "name": "googleapis",
-          "language": "nodejs",
-          "version": "29.0.0",
-          "dev": false,
-          "notRemovable": false
-        }
-      }
+      "dependencies": {}
     }
   },
   "PROJECT_META": {
-    "sigmaVersion": "1.4.1",
-    "projectName": "kretest812",
-    "projectDescription": "",
+    "sigmaVersion": "1.4.4",
+    "projectName": "kretest834",
+    "projectDescription": "My First Project",
     "projectVersion": "1.0.0",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1594716827839
+    "lastSave": 1602246886837
   },
   "VCS_STATE": {
     "provider": "GitHub",
